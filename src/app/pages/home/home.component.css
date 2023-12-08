@@ -1,0 +1,12 @@
+.articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  display: flex;
+  justify-content: center;
+}
