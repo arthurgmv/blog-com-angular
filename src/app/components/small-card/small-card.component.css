@@ -23,4 +23,26 @@
   margin-top: 1rem;
 }
 
+@media screen and (max-width: 600px) {
+  /* Ajusta o estilo do big-card para ocupar 100% da largura da tela */
+  .big-card_container {
+    width: 100%;
+    margin: 1em 0;
+  }
 
+  /* Ajusta o estilo do small-card para empilhar abaixo do big-card */
+  .small-card_container {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .small-card_photo img {
+    min-width: auto;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .small-card_container h3 {
+    padding: 1rem;
+  }
+}

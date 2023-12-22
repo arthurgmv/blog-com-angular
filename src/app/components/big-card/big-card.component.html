@@ -1,15 +1,13 @@
 <div class="big-card_container">
     <div class="big-card_photo">
-        <img src="https://th.bing.com/th/id/OIP.PSFUnydkBZszHjYlOtQF8gHaD4?w=600&h=315&rs=1&pid=ImgDetMain" alt="" srcset="" width="100%">
+        <img src="{{photoCover}}" alt="" srcset="" width="100%">
     </div>
 
     <div class="big-card_title">
-       <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+       <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
     </div>
 
     <div class="big-card_description">
-      <p> Bacon ipsum dolor amet pork belly shoulder pork loin magna est kevin jowl. Pork chop landjaeger ut, adipisicing t-bone doner culpa ipsum deserunt in.
-        Consectetur shankle spare ribs, jerky pork chop velit labore. Excepteur exercitation ut tempor mollit enim short ribs pork voluptate ullamco aliqua.
-        Officia in id meatball prosciutto. Non do landjaeger fatback sunt ham, short loin nostrud velit.</p>
+      <p> {{cardDescription}}</p>
     </div>
 </div>
