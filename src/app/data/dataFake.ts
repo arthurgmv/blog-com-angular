@@ -23,6 +23,7 @@ export const dataFake = [
     "Id":"4",
     "title": "A importância de manter o seu GitHub atualizado",
     "description": "No cenário dinâmico da comunidade de desenvolvimento, destaco a imperiosa relevância de manter seu perfil no GitHub sempre atualizado. Este post explora os motivos pelos quais essa prática vai além da formalidade, transformando-se em uma poderosa ferramenta para avanço profissional. O GitHub não é apenas um repositório de códigos, mas uma vitrine que reflete sua expertise e engajamento com projetos. Manter suas contribuições e projetos atualizados não apenas aumenta sua visibilidade, mas também fortalece a colaboração, fomenta o aprendizado contínuo e constrói uma sólida reputação na vasta comunidade de desenvolvedores. Esteja pronto para descobrir como um GitHub ativo não é apenas um reflexo do passado, mas uma ponte para oportunidades futuras no mundo da programação.",
+    "photoCover":"https://miro.medium.com/max/2000/0*TTBp4E94PtY1KjFB.jpg"
   }
 
 
